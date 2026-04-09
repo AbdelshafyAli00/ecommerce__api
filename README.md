@@ -1,56 +1,26 @@
 🛒 Ecommerce API
-
-A scalable E-commerce Backend API built with NestJS, TypeScript, and MongoDB.
-
----
-
+A powerful and scalable E-commerce Backend API built using NestJS, TypeScript, and PostgreSQL.
 🚀 Features
-
-- 🔐 Authentication (JWT)
-- 👤 Users Management
-- 🛍️ Products & Categories
-- 🛒 Cart System
-- 📦 Orders System
-- ⭐ Reviews
-- 📧 Email إرسال
-- 📁 File Upload
-
----
-
+🔐 Authentication & Authorization (JWT)
+👤 User Management
+🛍️ Product Management
+🧾 Orders System
+🛒 Cart System
+⭐️ Reviews System
+📧 Email Service
+📦 File Upload (Multer)
 🛠️ Tech Stack
-
-- NestJS
-- TypeScript
-- MongoDB
-- JWT
-- Multer
-
----
-
+Backend: NestJS
+Language: TypeScript
+Database: PostgreSQL
+ORM: TypeORM
+Authentication: JWT
+File Upload: Multer
+📁 Project Structure
+src/ ├── auth/ ├── users/ ├── products/ ├── categories/ ├── orders/ ├── cart/ ├── review/ ├── mail/ ├── config/
 ⚙️ Installation
-
-git clone https://github.com/AbdelshafyAli00/ecommerce_api.git
-cd ecommerce-api
-npm install
-
----
-
-▶️ Run Project
-
-npm run start:dev
-
----
-
-🔐 Environment Variables
-
-Create ".env" file:
-
-PORT=3000
-DB_URI=your_database_url
-JWT_SECRET=your_secret
-
----
-
+git clone https://github.com/AbdelshafyAli00/ecommerce_api.git cd ecommerce-api npm install 
+▶️ Running the App
+npm run start:dev 
 👨‍💻 Author
-
 Abdelshafy Ali
